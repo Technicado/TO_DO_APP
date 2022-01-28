@@ -19,8 +19,8 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "run":"npm run server",
     "build": "react-scripts build",
+    "run":"npm run server",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --port 5000"
